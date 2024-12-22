@@ -1,0 +1,45 @@
+1. Tipos de Usuários e Funcionalidades
+1.1 Público Geral
+Acesso a informações gerais, sem dados pessoais
+Visualização de:
+Número de cirurgias realizadas
+Número de pessoas na fila para cada tipo de cirurgia
+Tipos de cirurgias disponibilizadas
+1.2 Paciente/Usuário
+Acesso ao cadastro pessoal
+Capacidade de modificar informações no cadastro
+Upload de documentos
+Visualização de agendamentos:
+Consultas (aguardando, agendado, realizado)
+Cirurgias (aguardando, agendado, realizado)
+Acesso a estatísticas gerais (número de cirurgias realizadas e pessoas na fila)
+1.3 Médico Clínico
+Acesso aos dados dos pacientes sob seus cuidados
+Capacidade de cadastrar novos pacientes
+Visualização e atualização de prontuários dos seus pacientes
+Acompanhamento do processo de hormonização
+1.4 Médico Cirurgião
+Acesso a todos os pacientes cadastrados no sistema
+Gerenciamento da agenda de consultas e cirurgias
+Capacidade de agendar consultas e cirurgias
+Visualização completa do histórico médico dos pacientes
+2. Funcionalidades Principais
+2.1 Cadastro e Gerenciamento de Pacientes
+Informações pessoais (nome social/civil, documentos, data de nascimento, etc.)
+Upload de documentos (foto, documentos de identificação, relatórios médicos)
+Seleção de cirurgias desejadas (mamoplastia masculinizadora, neocolpovulvovaginoplastia, histerectomia, metoidoplastia, tireoplastia, mamoplastia com prótese, neofaloplastia)
+2.2 Acompanhamento do Processo
+Registro e acompanhamento da hormonização
+Upload periódico de relatórios
+Sistema de notificações para pacientes e médicos
+2.3 Agendamento
+Sistema integrado de agendamento para consultas e cirurgias
+Visualização de status (aguardando, agendado, realizado)
+2.4 Relatórios e Estatísticas
+Geração automática de estatísticas públicas
+Relatórios detalhados para médicos e administradores do sistema
+2.5 Segurança e Privacidade
+Acesso controlado baseado no tipo de usuário
+Criptografia de dados sensíveis
+Conformidade com LGPD e regulamentações de saúde
+3. Aspectos Técnicos

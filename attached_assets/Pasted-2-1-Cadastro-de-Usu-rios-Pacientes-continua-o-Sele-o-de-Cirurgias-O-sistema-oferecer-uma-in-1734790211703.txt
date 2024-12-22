@@ -1,0 +1,71 @@
+2.1 Cadastro de Usuários (Pacientes) (continuação)
+Seleção de Cirurgias: O sistema oferecerá uma interface com caixas de seleção (checkboxes) para que o usuário possa escolher as cirurgias desejadas. As opções disponíveis são:
+
+Mamoplastia masculinizadora
+Neocolpovulvovaginoplastia
+Histerectomia
+Metoidoplastia
+Tireoplastia
+Mamoplastia com prótese
+Neofaloplastia
+Características da funcionalidade:
+
+Múltipla seleção: o usuário pode selecionar uma ou mais cirurgias
+Flexibilidade: opção de selecionar ou desselecionar a qualquer momento
+Descrições informativas: cada opção terá uma breve descrição ao passar o mouse
+Confirmação: após a seleção, um resumo das escolhas será exibido para confirmação
+2.2 Acompanhamento do Processo de Hormonização
+Registro de Início da Hormonização:
+
+Data de início do tratamento hormonal
+Médico responsável pelo acompanhamento
+Uploads Periódicos:
+
+Funcionalidade para anexar relatórios de acompanhamento a cada 6 meses
+Sistema de alerta para lembrar o usuário sobre a necessidade de novos uploads
+Marcador de Tempo:
+
+Contador visual mostrando o tempo decorrido desde o início da hormonização
+Destaque automático quando atingir os 2 anos necessários para elegibilidade cirúrgica
+2.3 Submissão do Relatório Final para Autorização Cirúrgica
+Upload do Relatório:
+
+Após 2 anos de hormonização, habilitar upload do relatório final
+Verificação automática da presença de duas assinaturas/carimbos de profissionais de saúde
+Opção para o médico responsável fazer o upload diretamente no sistema
+Revisão e Aprovação:
+
+Interface para equipe médica revisar o relatório submetido
+Sistema de status para acompanhamento do processo de aprovação
+2.4 Interface para Profissionais de Saúde
+Cadastro de Médicos:
+
+Nome completo, CRM, especialidade
+Unidade de atendimento
+Gerenciamento de Pacientes:
+
+Lista de pacientes em acompanhamento
+Funcionalidade para adicionar notas e atualizações ao prontuário
+Upload de relatórios e exames
+Agendamento de Consultas:
+
+Integração com sistema de agendamento do hospital/clínica
+2.5 Painel de Controle do Usuário
+Visão Geral do Processo:
+
+Status atual do tratamento
+Próximas etapas e requisitos pendentes
+Histórico de uploads e consultas
+Notificações e Lembretes:
+
+Alertas sobre consultas próximas
+Lembretes para upload de novos relatórios
+2.6 Segurança e Privacidade
+Criptografia de ponta a ponta para todos os dados
+Autenticação de dois fatores para acesso ao sistema
+Logs detalhados de todas as ações realizadas no sistema
+Conformidade com LGPD e regulamentações de saúde brasileiras
+2.7 Relatórios e Análises
+Geração de relatórios estatísticos para gestão do sistema de saúde
+Acompanhamento de tempos de espera e eficiência do processo
+Dados anonimizados para pesquisa e melhoria do atendimento

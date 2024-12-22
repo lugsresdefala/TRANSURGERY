@@ -1,0 +1,66 @@
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand" aria-label="Voltar à página inicial">
+                <img src="/static/images/LOGOTRANS.png" alt="GEM-T Logo">
+                GEM-T
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                        <li class="nav-item"><a href="/login" class="nav-link">Entrar</a></li>
+                        <li class="nav-item"><a href="/register" class="nav-link">Registrar</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        
+            
+        
+        
+<div class="text-center container-fluid py-5">
+    <h1 class="display-4 mb-4 animate-fadeInUp">BOAS VINDAS, GEM-T</h1>
+    <p class="lead mb-4 animate-fadeInUp">Gerenciamento de cuidados com a Expressão de Gênero e Mudanças Corporais</p>
+    <p class="mb-4 animate-fadeInUp">Sistema integrado para acompanhamento de cuidados de saúde e suporte às intervenções corporais, com acesso facilitado para pacientes e profissionais.</p>
+    
+        <div class="d-flex justify-content-center align-items-center gap-4">
+            <a href="/login" class="btn btn-primary btn-lg animate-fadeInUp px-4 py-2">Entrar</a>
+            <a href="/register" class="btn btn-outline-light btn-lg animate-fadeInUp px-4 py-2">Registrar</a>
+        </div>
+    
+</div>
+
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <p>© 2024 GEM-T - Direitos reservados - Tiago José de Oliveira Gomes CRM 164375</p>
+            <p><a href="/privacy" class="footer-link">Política de Privacidade</a> | <a href="/terms" class="footer-link">Termos de Uso</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <div id="notification-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050">
+    </div>
+    <script>
+        function showNotification(message, type = 'info') {
+            const container = document.getElementById('notification-container');
+            const notification = document.createElement('div');
+            notification.className = `alert alert-${type} alert-dismissible fade show`;
+            notification.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+            `;
+            container.appendChild(notification);
+            setTimeout(() => notification.remove(), 5000);
+        }
+    </script>
+
+</body>
